@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="me.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <title>Document</title>
+
+</head>
+<body>
+  <body>
+    <div class="sidebar close">
+      <div class="logo-details">
+        <i class='bx bx-code-alt'></i>
+        <span class="logo_name">Welcome</span>
+      </div>
+      <ul class="nav-links">
+        <li class="#">
+          <a href="../home.html">
+            <i class='bx bx-home-alt'></i>
+            <span class="link_name">Home</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Home</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class='bx bx-user'></i>
+              <span class="link_name">About</span>
+            </a>
+            <i class='bx bxs-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#" id="about">About</a></li>
+            <li><a href="../about/about.html">Me</a></li>
+            <li><a href="../about friend/friend.html" id="friends">Friends</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="iocn-link">
+            <a href="#">
+              <i class='bx bx-image'></i>
+              <span class="link_name">Galery</span>
+            </a>
+            <i class='bx bxs-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu active">
+            <li><a class="link_name" href="#" id="gallery">Galery</a></li>
+            <li><a href="../galerime/me.html" id="me">me</a></li>
+            <li><a href="../galerime/me.html">with friends</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-music'></i>
+            <span class="link_name">Hobby</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Hobby</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-line-chart'></i>
+            <span class="link_name">Chart</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Chart</a></li>
+          </ul>
+        </li>
+        <li>
+          <!-- <div class="iocn-link">
+            <a href="#">
+              <i class='bx bx-plug' ></i>
+              <span class="link_name">Plugins</span>
+            </a>
+            <i class='bx bxs-chevron-down arrow' ></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Plugins</a></li>
+            <li><a href="#">UI Face</a></li>
+            <li><a href="#">Pigments</a></li>
+            <li><a href="#">Box Icons</a></li>
+          </ul>
+        </li> -->
+        <li>
+          <a href="#">
+            <i class='bx bx-compass'></i>
+            <span class="link_name">Explore</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Explore</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-history'></i>
+            <span class="link_name">History</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">History</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-envelope'></i>
+            <span class="link_name">Contact</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Contact</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="nanau1.jpg" alt="profileImg">
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Naurah.R</div>
+              <div class="job">Student</div>
+            </div>
+            <i class='bx bx-log-out'></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <section class="about">
+          <div class="aku">
+              <h2>Galery me</h2>
+          </div>
+      </section>
+        <!-- <i class='bx bx-menu'></i> -->
+     </div>
+
+     <!-- ini galeri foto me -->
+     <div class="wrapper">
+      <div class="gallery">
+        <div class="image"><span><img src="images/img-1.jpg" alt=""></span></div>
+        <div class="image"><span><img src="images/img-2.jpg" alt=""></span></div>
+        <div class="image"><span><img src="images/img-3.jpg" alt=""></span></div>
+        <div class="image"><span><img src="images/img-4.jpg" alt=""></span></div>
+        <div class="image"><span><img src="images/img-5.jpg" alt=""></span></div>
+        <div class="image"><span><img src="images/img-6.jpg" alt=""></span></div>
+      </div>
+    </div>
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box">
+        <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+        <div class="slide next"><i class="fas fa-angle-right"></i></div>
+        <img src="" alt="">
+      </div>
+    </div>
+    <div class="shadow"></div>
+    <script src="script.js"></script>
+
+  <!--<script src="script.js"></script>-->
+</body>
+</html>
