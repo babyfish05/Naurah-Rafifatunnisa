@@ -670,3 +670,8 @@ footer .bottom-details .bottom_text{
     width: 100%;
   }
 }
+.link-boxes .box li p{
+  margin-top: 5px;
+  font-size: 13px;
+  color: white;
+}
